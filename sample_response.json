@@ -1,0 +1,505 @@
+{
+  "input": {
+    "location": "Maner, Patna, Bihar",
+    "lat": null,
+    "lon": null,
+    "margin_capital": 100000.0,
+    "business_category": "Dairy"
+  },
+  "location": {
+    "name": "Maner, Patna, Bihar",
+    "block": "Maner",
+    "district": "Patna",
+    "state": "Bihar",
+    "lat": 25.6468,
+    "lon": 84.8766,
+    "source": "mock_location_lookup"
+  },
+  "financial": {
+    "eligible": true,
+    "margin_capital": 100000.0,
+    "project_cost": 1000000.0,
+    "calculated_90_percent_loan": 900000.0,
+    "sanctionable_loan": 900000.0,
+    "financing_gap_due_to_scheme_cap": 0.0,
+    "scheme": {
+      "code": "term_loan",
+      "name": "Term Loan Scheme",
+      "annual_interest_rate": 8.0,
+      "tenure_years": 7,
+      "moratorium_months": 6,
+      "max_project_cost": 5000000.0,
+      "max_loan_amount": 4500000.0
+    },
+    "repayment": {
+      "assumption": "Tenure includes moratorium; moratorium interest is capitalized monthly; repayment is quarterly thereafter.",
+      "moratorium_months": 6,
+      "principal_before_moratorium": 900000.0,
+      "principal_after_moratorium": 936605.36,
+      "repayment_quarters": 26,
+      "quarterly_payment_estimate": 46548.57,
+      "schedule": [
+        {
+          "installment_no": 1,
+          "due_date": "2027-06-26",
+          "opening_principal": 936605.36,
+          "interest": 18732.11,
+          "principal_component": 27816.46,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 908788.9
+        },
+        {
+          "installment_no": 2,
+          "due_date": "2027-09-26",
+          "opening_principal": 908788.9,
+          "interest": 18175.78,
+          "principal_component": 28372.79,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 880416.11
+        },
+        {
+          "installment_no": 3,
+          "due_date": "2027-12-26",
+          "opening_principal": 880416.11,
+          "interest": 17608.32,
+          "principal_component": 28940.24,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 851475.87
+        },
+        {
+          "installment_no": 4,
+          "due_date": "2028-03-26",
+          "opening_principal": 851475.87,
+          "interest": 17029.52,
+          "principal_component": 29519.05,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 821956.82
+        },
+        {
+          "installment_no": 5,
+          "due_date": "2028-06-26",
+          "opening_principal": 821956.82,
+          "interest": 16439.14,
+          "principal_component": 30109.43,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 791847.39
+        },
+        {
+          "installment_no": 6,
+          "due_date": "2028-09-26",
+          "opening_principal": 791847.39,
+          "interest": 15836.95,
+          "principal_component": 30711.62,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 761135.77
+        },
+        {
+          "installment_no": 7,
+          "due_date": "2028-12-26",
+          "opening_principal": 761135.77,
+          "interest": 15222.72,
+          "principal_component": 31325.85,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 729809.92
+        },
+        {
+          "installment_no": 8,
+          "due_date": "2029-03-26",
+          "opening_principal": 729809.92,
+          "interest": 14596.2,
+          "principal_component": 31952.37,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 697857.56
+        },
+        {
+          "installment_no": 9,
+          "due_date": "2029-06-26",
+          "opening_principal": 697857.56,
+          "interest": 13957.15,
+          "principal_component": 32591.41,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 665266.14
+        },
+        {
+          "installment_no": 10,
+          "due_date": "2029-09-26",
+          "opening_principal": 665266.14,
+          "interest": 13305.32,
+          "principal_component": 33243.24,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 632022.9
+        },
+        {
+          "installment_no": 11,
+          "due_date": "2029-12-26",
+          "opening_principal": 632022.9,
+          "interest": 12640.46,
+          "principal_component": 33908.11,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 598114.79
+        },
+        {
+          "installment_no": 12,
+          "due_date": "2030-03-26",
+          "opening_principal": 598114.79,
+          "interest": 11962.3,
+          "principal_component": 34586.27,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 563528.52
+        },
+        {
+          "installment_no": 13,
+          "due_date": "2030-06-26",
+          "opening_principal": 563528.52,
+          "interest": 11270.57,
+          "principal_component": 35278.0,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 528250.52
+        },
+        {
+          "installment_no": 14,
+          "due_date": "2030-09-26",
+          "opening_principal": 528250.52,
+          "interest": 10565.01,
+          "principal_component": 35983.56,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 492266.97
+        },
+        {
+          "installment_no": 15,
+          "due_date": "2030-12-26",
+          "opening_principal": 492266.97,
+          "interest": 9845.34,
+          "principal_component": 36703.23,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 455563.74
+        },
+        {
+          "installment_no": 16,
+          "due_date": "2031-03-26",
+          "opening_principal": 455563.74,
+          "interest": 9111.27,
+          "principal_component": 37437.29,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 418126.45
+        },
+        {
+          "installment_no": 17,
+          "due_date": "2031-06-26",
+          "opening_principal": 418126.45,
+          "interest": 8362.53,
+          "principal_component": 38186.04,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 379940.41
+        },
+        {
+          "installment_no": 18,
+          "due_date": "2031-09-26",
+          "opening_principal": 379940.41,
+          "interest": 7598.81,
+          "principal_component": 38949.76,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 340990.66
+        },
+        {
+          "installment_no": 19,
+          "due_date": "2031-12-26",
+          "opening_principal": 340990.66,
+          "interest": 6819.81,
+          "principal_component": 39728.75,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 301261.9
+        },
+        {
+          "installment_no": 20,
+          "due_date": "2032-03-26",
+          "opening_principal": 301261.9,
+          "interest": 6025.24,
+          "principal_component": 40523.33,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 260738.58
+        },
+        {
+          "installment_no": 21,
+          "due_date": "2032-06-26",
+          "opening_principal": 260738.58,
+          "interest": 5214.77,
+          "principal_component": 41333.79,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 219404.78
+        },
+        {
+          "installment_no": 22,
+          "due_date": "2032-09-26",
+          "opening_principal": 219404.78,
+          "interest": 4388.1,
+          "principal_component": 42160.47,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 177244.31
+        },
+        {
+          "installment_no": 23,
+          "due_date": "2032-12-26",
+          "opening_principal": 177244.31,
+          "interest": 3544.89,
+          "principal_component": 43003.68,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 134240.63
+        },
+        {
+          "installment_no": 24,
+          "due_date": "2033-03-26",
+          "opening_principal": 134240.63,
+          "interest": 2684.81,
+          "principal_component": 43863.75,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 90376.88
+        },
+        {
+          "installment_no": 25,
+          "due_date": "2033-06-26",
+          "opening_principal": 90376.88,
+          "interest": 1807.54,
+          "principal_component": 44741.03,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 45635.85
+        },
+        {
+          "installment_no": 26,
+          "due_date": "2033-09-26",
+          "opening_principal": 45635.85,
+          "interest": 912.72,
+          "principal_component": 45635.85,
+          "quarterly_payment": 46548.57,
+          "closing_principal": 0.0
+        }
+      ]
+    }
+  },
+  "geospatial": {
+    "consumer_base_estimate": {
+      "within_5km": 26690,
+      "within_10km": 78500
+    },
+    "population_proxy_note": "Mock census-derived estimate for demo; replace with Census/Data.gov.in layers in production.",
+    "poi_counts": {
+      "within_5km": 11,
+      "within_10km": 15
+    },
+    "competitor_mapping": {
+      "category": "Dairy",
+      "competitors_within_10km": 4,
+      "density_label": "Moderate",
+      "competitors_per_100_sq_km": 1.27,
+      "nearest": [
+        {
+          "id": 1,
+          "name": "Shiv Dairy Point",
+          "category": "Dairy",
+          "lat": 25.6512,
+          "lon": 84.881,
+          "channel": "Direct retail",
+          "village": "Maner",
+          "district": "Patna",
+          "distance_km": 0.66,
+          "h3_cell": "fallback-25.65-84.88"
+        },
+        {
+          "id": 2,
+          "name": "Ganga Milk Collection Centre",
+          "category": "Dairy",
+          "lat": 25.6325,
+          "lon": 84.8612,
+          "channel": "Milk collection",
+          "village": "Brahmachari",
+          "district": "Patna",
+          "distance_km": 2.22,
+          "h3_cell": "fallback-25.63-84.86"
+        },
+        {
+          "id": 3,
+          "name": "Anand Fresh Dairy",
+          "category": "Dairy",
+          "lat": 25.689,
+          "lon": 84.905,
+          "channel": "Direct retail",
+          "village": "Sherpur",
+          "district": "Patna",
+          "distance_km": 5.49,
+          "h3_cell": "fallback-25.69-84.91"
+        },
+        {
+          "id": 13,
+          "name": "Bihta Dairy Booth",
+          "category": "Dairy",
+          "lat": 25.5685,
+          "lon": 84.8701,
+          "channel": "Direct retail",
+          "village": "Bihta",
+          "district": "Patna",
+          "distance_km": 8.73,
+          "h3_cell": "fallback-25.57-84.87"
+        }
+      ]
+    },
+    "distribution_channels": [
+      {
+        "channel": "Direct retail",
+        "poi_count": 3
+      },
+      {
+        "channel": "Retail",
+        "poi_count": 2
+      },
+      {
+        "channel": "HORECA",
+        "poi_count": 2
+      },
+      {
+        "channel": "Institutional buyer",
+        "poi_count": 2
+      },
+      {
+        "channel": "Milk collection",
+        "poi_count": 1
+      },
+      {
+        "channel": "Local market",
+        "poi_count": 1
+      },
+      {
+        "channel": "SHG channel",
+        "poi_count": 1
+      },
+      {
+        "channel": "Animal health",
+        "poi_count": 1
+      },
+      {
+        "channel": "Cold chain",
+        "poi_count": 1
+      },
+      {
+        "channel": "Weekly haat",
+        "poi_count": 1
+      }
+    ],
+    "h3_demand_zones": [
+      {
+        "cell": "fallback-25.65-84.88",
+        "all_pois": 2,
+        "competitors": 1
+      },
+      {
+        "cell": "fallback-25.63-84.86",
+        "all_pois": 1,
+        "competitors": 1
+      },
+      {
+        "cell": "fallback-25.69-84.91",
+        "all_pois": 1,
+        "competitors": 1
+      },
+      {
+        "cell": "fallback-25.64-84.87",
+        "all_pois": 1,
+        "competitors": 0
+      },
+      {
+        "cell": "fallback-25.65-84.87",
+        "all_pois": 1,
+        "competitors": 0
+      },
+      {
+        "cell": "fallback-25.64-84.89",
+        "all_pois": 1,
+        "competitors": 0
+      },
+      {
+        "cell": "fallback-25.66-84.85",
+        "all_pois": 1,
+        "competitors": 0
+      },
+      {
+        "cell": "fallback-25.62-84.91",
+        "all_pois": 1,
+        "competitors": 0
+      }
+    ],
+    "demographics": {
+      "location": "Maner, Patna, Bihar",
+      "population_within_10km": 78500,
+      "monthly_household_income_proxy": 16500,
+      "households_proxy": 14200,
+      "weekly_haat_days": [
+        "Tuesday",
+        "Saturday"
+      ],
+      "agriculture_dependence": "high",
+      "note": "Synthetic demo estimate inspired by rural Census-style fields; not an official statistic."
+    }
+  },
+  "advisory": {
+    "mode": "deterministic_demo_fallback",
+    "headline": "Dairy feasibility snapshot for Maner, Patna, Bihar",
+    "market_reach": "Estimated addressable consumer base is about 78,500 people within 10 km. Use SHGs, local retailers, weekly haats, and repeat institutional buyers where available.",
+    "opportunity_analysis": [
+      "Home-delivered milk subscriptions",
+      "Curd/paneer value addition",
+      "Tea stalls and small eateries as repeat B2B buyers"
+    ],
+    "swot": {
+      "strengths": [
+        "Access to an estimated 78,500 consumers within 10 km",
+        "Low-distance local distribution can reduce last-mile cost",
+        "Scheme-linked capital can support initial productive assets"
+      ],
+      "weaknesses": [
+        "First-time operator execution risk",
+        "Limited working-capital buffer if all margin is used upfront",
+        "Mock data must be replaced by live local validation before lending"
+      ],
+      "opportunities": [
+        "Home-delivered milk subscriptions",
+        "Curd/paneer value addition",
+        "Tea stalls and small eateries as repeat B2B buyers"
+      ],
+      "threats": [
+        "Feed-price volatility",
+        "Animal health and cold-chain failures",
+        "Morning/evening demand concentration"
+      ]
+    },
+    "threats": [
+      "Feed-price volatility",
+      "Animal health and cold-chain failures",
+      "Morning/evening demand concentration"
+    ],
+    "competitor_summary": "4 mapped Dairy competitor(s) were found within 10 km in the demo POI dataset; density is moderate.",
+    "product_market_value": "Use a local benchmark band of ₹54–₹66/litre for standard milk, then validate with actual cooperative/private dairy prices. Household monthly income proxy in the demo dataset is ₹16,500.",
+    "financial_guardrail": "All financial numbers shown separately are computed by the deterministic engine; advisory text does not calculate loan eligibility or repayment values.",
+    "retrieved_sources": [
+      "pricing.md",
+      "dairy_market.md",
+      "schemes.md",
+      "swot_template.md"
+    ]
+  },
+  "alternative_creditworthiness": {
+    "mock": true,
+    "score_300_900": 818,
+    "band": "Strong",
+    "sample_features": {
+      "utility_payment_on_time_ratio": 0.92,
+      "upi_monthly_inflow_stability": 0.78,
+      "shg_repayment_cycle_score": 0.88
+    },
+    "explanation": "Illustrative score only; not a bureau score and not suitable for real credit decisions."
+  },
+  "prototype_notes": [
+    "Financial calculations are deterministic and rule-based.",
+    "POI, demographics and market prices are realistic mock data for demonstration.",
+    "Bhashini is represented by browser Web Speech API hooks in the frontend.",
+    "Alternative creditworthiness uses synthetic sample features only."
+  ]
+}

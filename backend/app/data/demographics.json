@@ -1,0 +1,29 @@
+[
+  {
+    "location":"Maner, Patna, Bihar",
+    "population_within_10km":78500,
+    "monthly_household_income_proxy":16500,
+    "households_proxy":14200,
+    "weekly_haat_days":["Tuesday","Saturday"],
+    "agriculture_dependence":"high",
+    "note":"Synthetic demo estimate inspired by rural Census-style fields; not an official statistic."
+  },
+  {
+    "location":"Bihta, Patna, Bihar",
+    "population_within_10km":112000,
+    "monthly_household_income_proxy":19200,
+    "households_proxy":21100,
+    "weekly_haat_days":["Wednesday","Sunday"],
+    "agriculture_dependence":"medium-high",
+    "note":"Synthetic demo estimate inspired by rural Census-style fields; not an official statistic."
+  },
+  {
+    "location":"Fatuha, Patna, Bihar",
+    "population_within_10km":98000,
+    "monthly_household_income_proxy":18100,
+    "households_proxy":18400,
+    "weekly_haat_days":["Monday","Friday"],
+    "agriculture_dependence":"medium",
+    "note":"Synthetic demo estimate inspired by rural Census-style fields; not an official statistic."
+  }
+]
